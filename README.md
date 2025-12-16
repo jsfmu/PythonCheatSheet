@@ -92,6 +92,7 @@ c.most_common(2)      # Top 2 frequent elements
 c['a'] += 1           # Increment count
 c.update("more")      # Add counts from iterable
 c.total()             # Sum of all counts
+c.elements()          # Returns an iterator over elements repeating 
 ```
 
 ## Deque
